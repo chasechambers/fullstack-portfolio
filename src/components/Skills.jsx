@@ -4,6 +4,34 @@ import Node from '../assets/node.png';
 import Github from '../assets/github.png';
 import Mongo from '../assets/mongo.png';
 import HTML from '../assets/html.png';
+import { SkillsItem } from './SkillsItem';
+
+const skillList = [
+  {
+    description: 'Javascript',
+    image: Javascript,
+  },
+  {
+    description: 'React',
+    image: ReactImg,
+  },
+  {
+    description: 'Node',
+    image: Node,
+  },
+  {
+    description: 'Github',
+    image: Github,
+  },
+  {
+    description: 'Mongo',
+    image: Mongo,
+  },
+  {
+    description: 'HTML',
+    image: HTML,
+  },
+];
 
 const Skills = () => {
   return (
@@ -14,38 +42,17 @@ const Skills = () => {
           <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
             Skills
           </p>
-          <p className='py-4'>//These are the technologies I've worked with</p>
+          <p className='py-4'>These are the technologies I've worked with</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
-          <div className='shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-            <p className='my-4'>HTML</p>
-          </div>
-          <div className='shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
-            <img
-              className='w-20 mx-auto'
-              src={Javascript}
-              alt='Javascript icon'
+          {skillList.map(skill => (
+            <SkillsItem
+              description={skill.description}
+              image={skill.image}
+              key={skill.description}
             />
-            <p className='my-4'>Javascript</p>
-          </div>
-          <div className='shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Github} alt='Github icon' />
-            <p className='my-4'>Github</p>
-          </div>
-          <div className='shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Node} alt='Node icon' />
-            <p className='my-4'>Node</p>
-          </div>
-          <div className='shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Mongo} alt='Mongo icon' />
-            <p className='my-4'>Mongo</p>
-          </div>
-          <div className='shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={ReactImg} alt='ReactImg icon' />
-            <p className='my-4'>React</p>
-          </div>
+          ))}
         </div>
       </div>
     </div>

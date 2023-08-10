@@ -5,6 +5,46 @@ import eatNSplit from '../assets/eat-n-split.jpg';
 import ruleOfCool from '../assets/ruleOfCool.jpg';
 import blackjack from '../assets/blackjack.jpg';
 import javascriptQuiz from '../assets/javascriptQuiz.jpg';
+import { ProjectCard } from './ProjectCard';
+
+const projectInfo = [
+  {
+    title: 'usePopcorn',
+    codeUrl: 'https://github.com/chasechambers/usePopcorn',
+    demoUrl: 'https://chasechambers.github.io/usePopcorn',
+    image: usePopcorn,
+  },
+  {
+    title: 'Far Away',
+    codeUrl: 'https://github.com/chasechambers/PackYourBags',
+    demoUrl: 'https://chasechambers.github.io/PackYourBags',
+    image: farAway,
+  },
+  {
+    title: 'Eat-N-Split',
+    codeUrl: 'https://github.com/chasechambers/Eat-n-Split',
+    demoUrl: 'https://chasechambers.github.io/Eat-n-Split',
+    image: eatNSplit,
+  },
+  {
+    title: 'Dungeons and Dragons Compendium',
+    codeUrl: 'https://github.com/chasechambers/Full-Circle',
+    demoUrl: 'https://rule-of-cool-779c8e563c30.herokuapp.com',
+    image: ruleOfCool,
+  },
+  {
+    title: 'Blackjack',
+    codeUrl: 'https://github.com/chasechambers/Team-BlackJack-People',
+    demoUrl: 'https://chasechambers.github.io/Team-BlackJack-People',
+    image: blackjack,
+  },
+  {
+    title: 'Javascript Quiz',
+    codeUrl: 'https://github.com/chasechambers/JavaScript-Quiz',
+    demoUrl: 'https://chasechambers.github.io/Javascript-Quiz',
+    image: javascriptQuiz,
+  },
+];
 
 const Projects = () => {
   return (
@@ -21,174 +61,15 @@ const Projects = () => {
         {/* Project Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${usePopcorn})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                usePopcorn
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://chasechambers.github.io/usePopcorn/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/chasechambers/usePopcorn'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${farAway})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Pack Your Bags
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://chasechambers.github.io/PackYourBags/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/chasechambers/PackYourBags'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${eatNSplit})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Eat-N-Split
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://chasechambers.github.io/Eat-n-Split/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/chasechambers/Eat-n-Split'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${ruleOfCool})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Dungeons and Dragons Character Creator
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://rule-of-cool-779c8e563c30.herokuapp.com/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/chasechambers/Full-Circle'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${blackjack})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Blackjack
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://chasechambers.github.io/Team-BlackJack-People/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/chasechambers/Team-BlackJack-People'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${javascriptQuiz})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://chasechambers.github.io/JavaScript-Quiz/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/chasechambers/JavaScript-Quiz'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          {projectInfo.map(project => (
+            <ProjectCard
+              title={project.title}
+              codeUrl={project.codeUrl}
+              demoUrl={project.demoUrl}
+              image={project.image}
+              key={project.title}
+            />
+          ))}
         </div>
       </div>
     </div>
