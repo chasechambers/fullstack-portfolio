@@ -1,8 +1,13 @@
 {
   "files": {
     "main.css": "/fullstack-portfolio/static/css/main.8a89e570.css",
-    "main.js": "/fullstack-portfolio/static/js/main.5be3a16c.js",
-    "static/media/workImg.jpeg": "/fullstack-portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "main.js": "/fullstack-portfolio/static/js/main.f97a7319.js",
+    "static/media/blackjack.jpg": "/fullstack-portfolio/static/media/blackjack.6484eda2b973655b1779.jpg",
+    "static/media/ruleOfCool.jpg": "/fullstack-portfolio/static/media/ruleOfCool.e2039ff97c6327db918e.jpg",
+    "static/media/usePopcorn.jpg": "/fullstack-portfolio/static/media/usePopcorn.5620238d587c28d8a953.jpg",
+    "static/media/farAway.jpg": "/fullstack-portfolio/static/media/farAway.dcca1d2b71bad8d9c745.jpg",
+    "static/media/javascriptQuiz.jpg": "/fullstack-portfolio/static/media/javascriptQuiz.b1c224932e6cda184bc1.jpg",
+    "static/media/eat-n-split.jpg": "/fullstack-portfolio/static/media/eat-n-split.2871797fcdc213693c87.jpg",
     "static/media/react.png": "/fullstack-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/fullstack-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/fullstack-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -12,10 +17,10 @@
     "static/media/javascript.png": "/fullstack-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/fullstack-portfolio/index.html",
     "main.8a89e570.css.map": "/fullstack-portfolio/static/css/main.8a89e570.css.map",
-    "main.5be3a16c.js.map": "/fullstack-portfolio/static/js/main.5be3a16c.js.map"
+    "main.f97a7319.js.map": "/fullstack-portfolio/static/js/main.f97a7319.js.map"
   },
   "entrypoints": [
     "static/css/main.8a89e570.css",
-    "static/js/main.5be3a16c.js"
+    "static/js/main.f97a7319.js"
   ]
 }
