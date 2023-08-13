@@ -10,37 +10,37 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-yellow-300'>
       <div>
-        <img src={Logo} alt='Logo' style={{ width: '50px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '80px' }} />
       </div>
 
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li>
+        <li className='hover:text-[#18fff9]'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#18fff9]'>
           {' '}
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#18fff9]'>
           {' '}
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#18fff9]'>
           {' '}
           <Link to='projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#18fff9]'>
           {' '}
           <Link to='contact' smooth={true} duration={500}>
             Contact
