@@ -15,6 +15,7 @@ const About = () => {
             <p>Hi. I'm Chase, nice to meet you. Please take a look around.</p>
           </div>
           <div className='text-yellow-500'>
+            {/* I need to update this */}
             <p>
               I'm passionate about building excellent software that improves the
               lives of those around me. I specialize in creating software for
