@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fullstack-portfolio/static/css/main.dbdc29d8.css",
-    "main.js": "/fullstack-portfolio/static/js/main.5d0e537b.js",
+    "main.js": "/fullstack-portfolio/static/js/main.562c9e62.js",
     "static/media/blackjack.jpg": "/fullstack-portfolio/static/media/blackjack.6484eda2b973655b1779.jpg",
     "static/media/ruleOfCool.jpg": "/fullstack-portfolio/static/media/ruleOfCool.e2039ff97c6327db918e.jpg",
     "static/media/logo.png": "/fullstack-portfolio/static/media/logo.6e6be373ed95fe48c8ea.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/fullstack-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/fullstack-portfolio/index.html",
     "main.dbdc29d8.css.map": "/fullstack-portfolio/static/css/main.dbdc29d8.css.map",
-    "main.5d0e537b.js.map": "/fullstack-portfolio/static/js/main.5d0e537b.js.map"
+    "main.562c9e62.js.map": "/fullstack-portfolio/static/js/main.562c9e62.js.map"
   },
   "entrypoints": [
     "static/css/main.dbdc29d8.css",
-    "static/js/main.5d0e537b.js"
+    "static/js/main.562c9e62.js"
   ]
 }
