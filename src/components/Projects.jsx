@@ -4,7 +4,7 @@ import farAway from '../assets/farAway.jpg';
 import eatNSplit from '../assets/eat-n-split.jpg';
 import ruleOfCool from '../assets/ruleOfCool.jpg';
 import blackjack from '../assets/blackjack.jpg';
-import javascriptQuiz from '../assets/javascriptQuiz.jpg';
+import fastpizza from '../assets/fastpizza.jpg';
 import { ProjectCard } from './ProjectCard';
 
 const projectInfo = [
@@ -39,10 +39,10 @@ const projectInfo = [
     image: blackjack,
   },
   {
-    title: 'Javascript Quiz',
-    codeUrl: 'https://github.com/chasechambers/JavaScript-Quiz',
-    demoUrl: 'https://chasechambers.github.io/Javascript-Quiz',
-    image: javascriptQuiz,
+    title: 'Fast React Pizza Co.',
+    codeUrl: 'https://github.com/chasechambers/fast-react-pizza',
+    demoUrl: 'https://fast-pizza-react.netlify.app/',
+    image: fastpizza,
   },
 ];
 
